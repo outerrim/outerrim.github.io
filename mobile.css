@@ -76,6 +76,7 @@ html, body {
 
 [data-icon]:before { font-family: 'socicon'; content: attr(data-icon); speak: none; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; }
 .twitter:before {content : '\e086'}
+.github:before {content : '\e037'}
 .facebook:before {content : '\e027'}
 .googleplus:before {content : '\e039'}
 .linkedin:before {content : '\e052'}
@@ -89,6 +90,7 @@ html, body {
 #social ul li a span:before { font-size: 150px; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 #social ul li a span:hover:before, #social ul li a span.open:before { -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; }
 #social ul li a span:hover.twitter:before, #social ul li a span.open.twitter:before { color: #00aced; }
+#social ul li a span:hover.github:before, #social ul li a span.open.github:before { color: #56C1BB; }
 #social ul li a span:hover.facebook:before, #social ul li a span.open.facebook:before { color: #3b5998; }
 #social ul li a span:hover.googleplus:before, #social ul li a span.open.googleplus:before { color: #dd4b39; }
 #social ul li a span:hover.linkedin:before, #social ul li a span.open.linkedin:before { color: #007bb6; }
